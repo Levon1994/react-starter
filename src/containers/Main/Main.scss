@@ -1,0 +1,22 @@
+.Main {
+    width: 900px;
+    margin: 0 auto;
+
+    &_item {
+        height: 90px;
+        border-radius: 4px;
+        padding: 15px;
+        background-color: rgb(241, 242, 247);
+        margin: 15px 0;
+        span {
+            font-size: 16px;
+            line-height: 30px;
+            color: rgb(4, 127, 148);
+        }
+        p {
+            font-size: 13px;
+            line-height: 16px;
+            color: rgb(40, 38, 39);
+        }
+    }
+}
